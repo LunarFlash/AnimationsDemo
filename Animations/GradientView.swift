@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class GradientView: UIView {
 
     public var topColor: UIColor = .white {
@@ -63,5 +64,6 @@ class GradientView: UIView {
     private func updateGradientColors() {
         gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
     }
+
 
 }
