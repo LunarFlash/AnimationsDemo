@@ -14,6 +14,8 @@
 		9D45070E222E2E2A0019088A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D45070C222E2E2A0019088A /* LaunchScreen.storyboard */; };
 		9D450719222E2E2A0019088A /* AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D450718222E2E2A0019088A /* AnimationsTests.swift */; };
 		9D450724222E2E2A0019088A /* AnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D450723222E2E2A0019088A /* AnimationsUITests.swift */; };
+		9D450732222E2E5E0019088A /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D450731222E2E5E0019088A /* UIView+Animations.swift */; };
+		9D450734222E2EFC0019088A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D450733222E2EFC0019088A /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9D45071F222E2E2A0019088A /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D450723222E2E2A0019088A /* AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITests.swift; sourceTree = "<group>"; };
 		9D450725222E2E2A0019088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D450731222E2E5E0019088A /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		9D450733222E2EFC0019088A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9D45070A222E2E2A0019088A /* Assets.xcassets */,
 				9D45070C222E2E2A0019088A /* LaunchScreen.storyboard */,
 				9D45070F222E2E2A0019088A /* Info.plist */,
+				9D450731222E2E5E0019088A /* UIView+Animations.swift */,
+				9D450733222E2EFC0019088A /* GradientView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				9D450706222E2E280019088A /* ViewController.swift in Sources */,
 				9D450704222E2E280019088A /* AppDelegate.swift in Sources */,
+				9D450734222E2EFC0019088A /* GradientView.swift in Sources */,
+				9D450732222E2E5E0019088A /* UIView+Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
